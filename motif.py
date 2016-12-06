@@ -48,6 +48,7 @@ flag=0
 count=0
 for i in range(0,len(dictA)):
     j=0
+    m=0
     while(m<len(dictA[i])):
         for j in range(0,len(dictA)):
             if(i!=j):

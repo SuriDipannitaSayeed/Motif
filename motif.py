@@ -11,8 +11,8 @@ def hammingdistance(a, b):
 
     return dist
 
-l=int(raw_input())
-d=int(raw_input())
+l=int(raw_input("Enter Motif Length: "))
+d=int(raw_input("Enter No of mismatches: "))
 gene = ["GCGCGAT","CAGGTGA","CGATGCC"]
 dictA = dict()
 
@@ -65,4 +65,5 @@ for i in range(0,len(dictA)):
         j=0
 
 setB.remove(0)
+print  "Motifs:"
 print setB

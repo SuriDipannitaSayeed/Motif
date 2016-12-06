@@ -12,7 +12,7 @@ def hammingdistance(a, b):
     return dist
 
 l=int(raw_input("Enter Motif Length: "))
-d=int(raw_input("Enter No of mismatches: "))
+d=int(raw_input("Enter No of Mismatches: "))
 gene = ["GCGCGAT","CAGGTGA","CGATGCC"]
 dictA = dict()
 
